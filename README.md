@@ -4,7 +4,7 @@
 
 <img src="https://img.shields.io/badge/HTML-F38454?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/CSS-1490fc?&style=for-the-badge&logo=css3&logoColor=white">
 
-> Curso: Desarrollo Web con HTML |  
+> Curso: ***Desarrollo Web con HTML*** |  
 > Martes y Viernes 20hs a 22hs (Arg) | 
 > 9 clases ( hasta  17/02/2023 ) 
 > Código: 62918 |  
@@ -43,7 +43,7 @@ Sublime Text: <https://www.sublimetext.com/>
 		</elemento>
 	</elemento>
 
-> Nota: en HTML ***todos*** los elementos son contenedores, EXCEPTO las interrupciones.  
+> Nota: en HTML **todos** los elementos son contenedores, *exepto* las interrupciones.  
 
 
 ## Fórmula de HTML
