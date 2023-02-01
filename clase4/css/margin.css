@@ -1,0 +1,25 @@
+body{
+    font-family: helvetica;
+    width: 758px;
+    margin: 0px;
+}
+
+article{
+    height: 120px;
+    width: 150px;
+    border: 1px solid rgb(1, 50, 43);;
+}
+#verde{
+    background-color: rgb(144, 251, 212);
+    margin-left: 24px;
+    margin-bottom: 32px;
+}
+#naranja{
+    background-color: rgb(251, 196, 144);
+    margin: 56px;
+}
+#celeste{
+    background-color: rgb(144, 226, 251);
+    margin:auto; /* centrar la caja */
+}
+
