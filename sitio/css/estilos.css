@@ -36,3 +36,53 @@ header{
     header nav a{
         margin: 6px;
     }
+
+/* main */
+main{
+    width: 960px;
+    margin: auto;
+}
+/* hero banner */
+#hero-banner{
+    height: 450px;
+    background-image: url(../imgs/hero-banner.jpg);
+    background-size: 960px;
+    background-position: center center; /* x  y */
+
+    display: flex;
+    align-items: center; /* centrar en vertical */
+}
+    #hero-banner h1{
+        margin-left: 150px;
+        color: #fff;
+    }
+
+/* promos */
+#promos{
+    height: 382px;
+    margin-top: 52px;
+    background-color: #FAF0E9;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+    #promos article{
+        width: 256px;
+    }
+
+    #promos h2{
+        font-size: 16px;
+        margin: 12px 0px;
+    }
+
+    
+
+/* footer */
+footer{
+    width: 960px;
+    height: 160px;
+    margin: 52px auto 0px auto;
+    background-color: #3c3c3c;
+}
+
