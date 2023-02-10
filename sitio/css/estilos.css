@@ -84,5 +84,23 @@ footer{
     height: 160px;
     margin: 52px auto 0px auto;
     background-color: #3c3c3c;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
+    footer a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+        #logo-footer img{
+            margin: 0px 8px 0px 12px;
+            vertical-align: middle;
+        }
+
+        footer div a img{
+            width: 24px;
+            margin: 0px 12px 0px 0px;
+        }
