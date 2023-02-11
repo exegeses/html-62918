@@ -76,7 +76,34 @@ main{
         margin: 12px 0px;
     }
 
-    
+/* servicios */    
+#servicios{
+    width: 630px;
+    height: 372px;
+    margin: 52px auto;
+    display: flex;
+    flex-wrap: wrap; /* respeta los anchos */
+
+    justify-content: space-around;
+}
+    #servicios h2{
+        width: 100%;
+        text-align: center;
+    }
+    #servicios a{
+        width: 160px;
+        height: 140px;
+        display: block;
+        border: 1px solid #3c3c3c;
+        /*margin: 32px 0px 0px 50px;*/
+        margin-top: 32px;
+        border-radius: 12px;
+        text-decoration: none;
+    }
+    .material-symbols-outlined{
+        font-size: 56px;
+    }
+
 
 /* footer */
 footer{
