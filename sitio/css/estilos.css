@@ -99,11 +99,78 @@ main{
         margin-top: 32px;
         border-radius: 12px;
         text-decoration: none;
+        text-align: center;
+        color: #3c3c3c;
+        transition: .5s; /* 500ms */
     }
-    .material-symbols-outlined{
-        font-size: 56px;
+    #servicios a:hover{
+        color: #fff;
+        background-color: #3c3c3c;
     }
 
+    .material-symbols-outlined{
+        font-size: 56px;
+        margin: 22px 52px 17px 52px;
+    }
+
+/* formulario de contacto */
+#contacto{
+    height: 450px;
+    background-color: #EC7D54;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    #contacto form{
+        width: 550px;
+    }
+    #contacto form input, 
+    #contacto form textarea{
+        width: 100%;
+        background-color: #F8A281;
+        border: none;
+        margin-bottom: 16px; 
+        padding: 8px;
+        color: #fff;
+        font-size: 18px;
+        font-family: Raleway, sans-serif;
+    }
+    #contacto form input::placeholder,
+    #contacto form textarea::placeholder{
+        color: #fff;
+    }
+    #contacto form textarea{
+        height: 152px;
+        resize: none;
+    }
+    #contacto form button{
+        width: 212px;
+        padding: 8px;
+        margin-top: 4px;
+        background-color: #fff;
+        border: 1px #CD5F35 solid;
+        border-radius: 8px;
+        font-family: Raleway, sans-serif;
+        color: #3c3c3c;
+        cursor: pointer;
+        transition: .5s;
+    }
+    #contacto form button:hover{
+        background-color: rgba(255, 255, 255, .75);
+    }
+
+
+/* mapa de google */    
+    #mapa{
+        margin-top: 52px;
+        height: 450px;
+    }
+        #mapa iframe{
+            width: 960px;
+            height: 450px;
+            border: none;
+        } 
 
 /* footer */
 footer{
