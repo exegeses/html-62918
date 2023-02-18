@@ -14,7 +14,6 @@
 
 
 
-
 ##  Nombre de Dominio
 
     .com  https://www.godaddy.com/es

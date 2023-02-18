@@ -1,3 +1,27 @@
+<?php
+    //capturamos datos enviados por el form
+    $nombre = $_POST['nombre'];
+    $email = $_POST['email'];
+    $consulta = $_POST['consulta'];
+
+    //configuramos datos de email a enviar
+    $destinatario = 'acá tu dirección'; /*!!!!!!*/
+    $asunto = 'Email enviado desde Summer Exploring';
+    $cuerpo = '<div style="width: 500px; padding: 32px; margin: auto;
+                    background-color: #EC7D54; font-family: sans-serif;
+                    color: #fff; font-weight: 600;">';
+    $cuerpo .= 'Nombre: '.$nombre.'<br>';
+    $cuerpo .= 'Email: '.$email.'<br>';
+    $cuerpo .= 'Consulta: '.$consulta;
+    $cuerpo .= '</div>';
+
+    $headers = 'From: satan@hell.com' . "\r\n";
+    $headers .= 'MIME-Version: 1.0' . "\r\n";
+    $headers .= 'Content-type: text/html; charset=utf-8';
+
+    //enviamos el email
+    mail($destinatario, $asunto, $cuerpo, $headers);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,20 +48,12 @@
     </header>
     <main>
 
-        <section id="contacto">
-            <form action="contacto.php" method="post">
-                <input type="text" name="nombre" placeholder="Nombre:" required>
-                <input type="email" name="email" placeholder="Email:" required>
-                <textarea name="consulta" placeholder="Consulta:" ></textarea>
-                <button>Enviar</button>
-            </form>
+        <section id="contacto" style="color: white">
+
+            Gracias <?= $nombre ?> por contactarnos
             
         </section>
 
-        <section id="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.6924799450194!2d-0.11828644828763331!3d51.500510518927435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b8be668bd9%3A0x803c1962e6448108!2s203%20Westminster%20Bridge%20Rd%2C%20London%20SE1%207FP%2C%20Reino%20Unido!5e0!3m2!1ses!2sar!4v1676417821682!5m2!1ses!2sar"  allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            
-        </section>
 
     </main>
     <footer>
